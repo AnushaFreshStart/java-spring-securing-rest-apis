@@ -31,7 +31,7 @@ public class ResolutionInitializer implements SmartInitializingSingleton {
 		User hasread = new User();
 		hasread.setId(UUID.randomUUID());
 		hasread.setUsername("hasread");
-		hasread.setPasword("$2a$10$MywQEqdZFNIYnx.Ro/VQ0ulanQAl34B5xVjK2I/SDZNVGS5tHQ08W");
+		hasread.setPasword("$2a$10$Pu.02bigwQm1drtqA2dysO9G/DtzNUyZ5z4guYJOtdlHl4ZfFQh.C");
 		hasread.grantAuthority("resolution:read");
 		this.users.save(hasread);
 
